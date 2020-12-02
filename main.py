@@ -4,11 +4,12 @@ two_digit_number = input("Type a two digit number: ")
 
 ####################################
 #Write your code below this line 👇
+print(type(two_digit_number))
 
-num_to_string = str(two_digit_number)
-a = int(num_to_string[0])
-b = int(num_to_string[1])
+a = int(two_digit_number [0])
+b = int(two_digit_number [1])
 print (a + b)
+
 
 
 
